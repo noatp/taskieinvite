@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+}
+
+body {
+    overscroll-behavior-y: none;
+}
+
+h1, .headline1 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 32px;
+    font-weight: bold; 
+}
+
+h2, .headline2 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 24px;
+    font-weight: 600; 
+}
+
+.body-text, .body {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px; 
+    font-weight: normal; 
+}
+
+.caption-text, .caption {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px;
+    font-weight: 600; 
+}
+
+.button-text, .button {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 17px;
+    font-weight: 500; 
+}
+
+.primary-button {
+    background-color: #1B631B; 
+    border-radius: 10px; 
+    color: #FFFFFF; 
+    border: none; 
+}
+
+.primary-button:active {
+    background-color: #165016; 
+    box-shadow: 0 0 5px #165016; 
+    outline: none; 
+}
+
+.app {
+    background-color: #165016;
+}
+
+.emailPanel {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+
+input[type="text"] {
+    border: 2px solid #165016;
+    border-radius: 10px;
+    outline: none;
+    transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    border-color: #1B631B; 
+    box-shadow: 0 0 5px #1B631B
+}
