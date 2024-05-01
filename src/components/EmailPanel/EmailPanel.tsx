@@ -48,7 +48,7 @@ function EmailPanel(): React.ReactElement {
         try {
             const householdId = extractHouseholdIdFromPath();
             if (!householdId) {
-                alert("No household ID found.");
+                alert("No invitation code found.");
                 return; // Stop execution if no household ID is found
             }
     
