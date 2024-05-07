@@ -74,11 +74,17 @@ input[type="text"]:focus {
     box-shadow: 0 0 5px #1B631B
 }
 
-@media (max-height: 800px) {
+@media (max-height: 600px) {
     .logo {
         width: 0px;
         height: 0px;
-        top: 10%; /* Adjust the top value as needed for very small screens */
+    }
+}
+
+@media (min-height: 601px) {
+    .logo {
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -86,7 +92,6 @@ input[type="text"]:focus {
     .logo {
         width: 150px;
         height: 150px;
-        top: calc(50vh - 250px); /* Default position for larger screens */
     }
 }
   

@@ -11,7 +11,7 @@ function App() {
       </div>
 
       {/* Logo centered horizontally and dynamically positioned */}
-      <img className="logo position-absolute" src="https://get-taskie.app/logo.png" alt="Taskie Logo" style={{ left: '50%', transform: 'translate(-50%, -50%)' }} />
+      <img className="logo position-absolute" src="https://get-taskie.app/logo.png" alt="Taskie Logo" style={{top: "calc(50vh - 250px)", left: '50%', transform: 'translate(-50%, -50%)' }} />
     </div>
   );
 }
