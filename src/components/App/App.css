@@ -53,7 +53,7 @@ h2, .headline2 {
 }
 
 .app {
-    background-color: #165016;
+    background-color: #266a28;
 }
 
 .emailPanel {
@@ -73,3 +73,20 @@ input[type="text"]:focus {
     border-color: #1B631B; 
     box-shadow: 0 0 5px #1B631B
 }
+
+@media (max-height: 800px) {
+    .logo {
+        width: 0px;
+        height: 0px;
+        top: 10%; /* Adjust the top value as needed for very small screens */
+    }
+}
+
+@media (min-height: 801px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+        top: calc(50vh - 250px); /* Default position for larger screens */
+    }
+}
+  
