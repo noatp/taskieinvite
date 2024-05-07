@@ -58,7 +58,7 @@ function EmailPanel(): React.ReactElement {
             });
     
             console.log("Document successfully written with ID: ", householdId);
-            window.location.href = 'https://apps.apple.com/app/apple-store/id1447330651';
+            window.location.href = 'https://appdistribution.firebase.dev/i/59f6750170274c84';
         } catch (error) {
             console.error("Error writing document: ", error);
             alert("Failed to register. Please try again later."); // Notify user of failure
